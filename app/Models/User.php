@@ -15,7 +15,7 @@ class User extends Authenticatable
 
     protected $primaryKey = 'User_ID'; // Primary key tabel
 
-    // Kolom yang bisa diisi
+    // Kolom yang bisa diisi njay
     protected $fillable = [
         'Username',
         'Password',
