@@ -70,7 +70,12 @@ class UserController extends Controller
     public function IGIForm(){
         return view('item-gi');
     }
-
+    public function VALOForm(){
+        return view('item-valo');
+    }
+    public function HSRForm(){
+        return view('item-hsr');
+    }
     public function signup(Request $request)
     {
         // Validate input
